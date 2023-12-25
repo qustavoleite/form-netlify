@@ -1,0 +1,36 @@
+@media (max-width: 975px) {
+    .form-inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .form button {
+        width: 300px;
+    }
+}
+
+@media (max-width: 835px) {
+    .contact {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .form {
+        padding: 17px;
+    }
+
+    .form-inputs {
+        gap: 15px;
+    }
+
+    .form button {
+        width: 250px;
+        font-size: 17px;
+    }
+
+    .form h1 {
+        font-size: 22px;
+    }
+}
